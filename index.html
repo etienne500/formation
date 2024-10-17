@@ -1,9 +1,13 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="icon" href="assets/img/home2.png">
+        
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
         
@@ -66,8 +70,8 @@
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
                 <div class="home_container container grid">
-                    <div style="padding: 15px;" class="home_img">
-                        <img src="assets/img/home2.png" alt="">
+                    <div style="padding: 0px 0px 0px 0px;" class="home_img">
+                        <img style="width: 200%;height: 90%;" src="assets/img/portrait.png" alt="">
                     </div>
 
                     <div class="home_data">
@@ -82,8 +86,12 @@
                         <div class="home_scroll">
                             <a href="#about" class="home_scroll-button button--flex"></a>
                             <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-                            <span class="home_scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                            <a href="#" class="scrollup" id="scroll-down">
+                                <!-- <span class="home_scroll-name">Scroll down</span> -->
+                                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                            </a>
+
+
                         </div>
                         <div class="home_social">
                             <span class="home_social-follow">Follow Me</span>
@@ -94,8 +102,8 @@
                                 <!-- <a href="https://www.dribbble.com" target="_blank" class="home_social-icon">
                                     <i class="uil uil-dribbble"></i>
                                 </a> -->
-                                <a href="https://www.github.com/etienne500" target="_blank" class="home_social-icon">
-                                    <i class="uil uil-github-alt"></i>
+                                <!-- <a href="https://www.github.com/etienne500" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-github-alt"></i> -->
                                 </a>
                             </div>
                         </div>
@@ -104,8 +112,10 @@
                             <div class="home_scroll1">
                                 <a href="#about" class="home_scroll-button button--flex"></a>
                                 <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-                                <span class="home_scroll-name">Scroll down</span>
-                                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                                <a href="#scroll-down" class="scrolldown">
+                                    <span class="home_scroll-name">Scroll down</span>
+                                    <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                                </a>
                             </div>
                             <div class="home_social1">
                                 <div class="home_social-link">
@@ -137,28 +147,27 @@
 
                  <div class="about_data">
                     <p class="about_description">
-                        FullStack Web developer, with extencive knowledge and years of experience,
-                        working in web technologies, delivering quality work
+                        I possess exceptional problem-solving skills and a relentless dedication to coding and software/web design. Moreover, I am able to learn quickly, adapt to new challenges, and execute projects efficiently within deadlines.
                     </p>
                     <div class="about_info">
                         <div>
-                            <span class="about_info-title">07+</span>
+                            <span class="about_info-title">06+</span>
                             <span class="about_info-name">Years <br>experience</span>
                         </div>
                         <div>
-                            <span class="about_info-title">25+</span>
+                            <span class="about_info-title">15+</span>
                             <span class="about_info-name">Completed <br>project</span>
                         </div>
                         <div>
-                            <span class="about_info-title">03+</span>
+                            <span class="about_info-title">02+</span>
                             <span class="about_info-name">Companies <br>worked</span>
                         </div>
                     </div>
-                    <!-- <div class="about_buttons">
-                        <a href="assets/pdf/johndoe-Cv.pdf" class="button button--flex">
+                    <div class="about_buttons">
+                        <a href="assets/pdf/NDEMAZE_NGOUMO_ETIENNE_BLERIOT_CV.pdf" class="button button--flex">
                             Download CV <i class="uil uil-download-alt button_icon"></i>
                         </a>
-                    </div> -->
+                    </div>
                  </div>
                </div>
             </section>
@@ -177,7 +186,7 @@
 
                             <div>
                                 <h1 class="skills_title">Frontend developer</h1>
-                                <span class="skills_subtitle">More than 3 years</span>
+                                <span class="skills_subtitle">More than 5 years</span>
                             </div>
 
                             <i class="uil uil-angle-down skills_arrow"></i>
@@ -204,7 +213,7 @@
                             <div class="skills_data">
                                 <div class="skills_titles">
                                     <h3 class="skills_name">Flutter</h3>
-                                    <span class="skills_number">40%</span>
+                                    <span class="skills_number">60%</span>
                                 </div>
                                 <div class="skills_bar">
                                     <span class="skills_percentage skills_flutter"></span>
@@ -224,7 +233,7 @@
 
                             <div>
                                 <h1 class="skills_title">Backend developer</h1>
-                                <span class="skills_subtitle">More than 7 years</span>
+                                <span class="skills_subtitle">More than 6 years</span>
                             </div>
 
                             <i class="uil uil-angle-down skills_arrow"></i>
@@ -516,7 +525,7 @@
                                 </li>
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Web page development</p>
+                                    <p>Web site development</p>
                                 </li>
                             </ul>
                         </div>
@@ -582,6 +591,9 @@
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
+                            <!-- <a href="https://tickevents.space/" class="button button--flex button--small portfolio_button">
+                                Download mobile app
+                            </a> -->
                         </div>
                     </div>
                     <!--============ PORTFOLIO 2 ==============-->
@@ -596,6 +608,9 @@
                             <a href="https://admin.jevebara.com/" class="button button--flex button--small portfolio_button">
                                 Demo 
                                 <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.cogitbusiness.jevebara&hl=fr&gl=US" class="button button--flex button--small portfolio_button">
+                                Download mobile app
                             </a>
                         </div>
                     </div>
@@ -641,20 +656,20 @@
                         </a>
                     </div>
 
-                    <img src="assets/img/home2.png" alt="" style="margin-bottom: 30px;" class="project_img">
+                    <!-- <img src="assets/img/home2.png" alt="" style="margin-bottom: 30px;" class="project_img"> -->
                 </div>
               </div>
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
+            <!-- <section class="testimonial section">
               <h2 class="section__title">Testimonial</h2>  
               <span class="section__subtitle">My client saying</span>
 
               <div class="testimonial_container container swiper-container">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper"> -->
                     <!--========= TESTIMONIAL 1 ==========-->
-                    <div class="testimonial_content swiper-slide">
+                    <!-- <div class="testimonial_content swiper-slide">
                         <div class="testimonial_data">
                             <div class="testimonial_header">
                                 <img src="assets/img/testimonial1.jpeg" alt="" class="testimonial_img">
@@ -677,9 +692,9 @@
                             I get a good impression,I carry out my project with all the possible
                             quality and attention and support 24 hours a day.
                         </p>
-                    </div>
+                    </div> -->
                     <!--========= TESTIMONIAL 2 ==========-->
-                    <div class="testimonial_content swiper-slide">
+                    <!-- <div class="testimonial_content swiper-slide">
                         <div class="testimonial_data">
                             <div class="testimonial_header">
                                 <img src="assets/img/testimonial2.jpg" alt="" class="testimonial_img">
@@ -695,16 +710,15 @@
                                 <i class="uil uil-star testimonial_icon-star"></i>
                                 <i class="uil uil-star testimonial_icon-star"></i>
                                 <i class="uil uil-star testimonial_icon-star"></i>
-                                <!-- <i class="uil uil-star testimonial_icon-star"></i> -->
                             </div>
                         </div>
                         <p class="testimonial_description">
                             I get a good impression,I carry out my project with all the possible
                             quality and attention.
                         </p>
-                    </div>
+                    </div> -->
                     <!--========= TESTIMONIAL 3 ==========-->
-                    <div class="testimonial_content swiper-slide">
+                    <!-- <div class="testimonial_content swiper-slide">
                         <div class="testimonial_data">
                             <div class="testimonial_header">
                                 <img src="assets/img/testimonial3.jpeg" alt="" class="testimonial_img">
@@ -729,11 +743,11 @@
                         </p>
                     </div>
                     
-                </div>
+                </div> -->
                 <!--Add Pagination-->
-                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                <!-- <div class="swiper-pagination swiper-pagination-testimonial"></div>
               </div>
-            </section>
+            </section> -->
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
@@ -747,7 +761,7 @@
 
                         <div>
                             <h3 class="contact_title">Call Me</h3>
-                            <span class="contact_subtitle">+237 6 55 79 78 61 (Whatsapp)</span>
+                            <span class="contact_subtitle">+237 6 55 79 78 61 (WhatsApp)</span>
                         </div>
                     </div>
                     <div class="contact_information">
@@ -763,13 +777,12 @@
 
                         <div>
                             <h3 class="contact_title">Location</h3>
-                            <span class="contact_subtitle">Yaoundé Cameroun</span>
+                            <span class="contact_subtitle">Yaoundé Cameroon</span>
                         </div>
                     </div>
                 </div>
 
-
-                <form action="" class="contact_form grid">
+                <form id="contactForm" action="" class="contact_form grid">
                     <div class="contact_inputs grid">
                       <div class="contact_content">
                         <label for="name" class="contact_label">Name</label>
@@ -782,7 +795,7 @@
                     </div>
                     <div class="contact_content">
                       <label for="project" class="contact_label">Project</label>
-                      <input type="tetx" id="project" class="contact_input">
+                      <input type="text" id="project" class="contact_input">
                     </div>
                     <div class="contact_content">
                       <label for="description" class="contact_label">Project description</label>
@@ -795,24 +808,74 @@
                       </button>
                     </div>
                   </form>
-
+                  
                   <script>
-                    function sendEmail() {
-                      var name = document.getElementById("name").value;
-                      var email = document.getElementById("email").value;
-                      var project = document.getElementById("project").value;
-                      var description = document.getElementById("description").value;
-                      
-                      var mailtoLink = "mailto:etiennendemaze500@gmail.com" +
-                                       "?subject=" + encodeURIComponent(project) +
-                                       "&body=" + encodeURIComponent(description + "\n\n" + name + "\n" + email);
-                      
-                      window.open(mailtoLink);
+                  function sendEmail() {
+                    var name = document.getElementById("name").value;
+                    var email = document.getElementById("email").value;
+                    var project = document.getElementById("project").value;
+                    var description = document.getElementById("description").value;
+                  
+                    // Validation des champs
+                    if(name.length == 0) {
+                      alert("name is required");
+                      return;
                     }
-                    
-                    document.getElementById("sendButton").addEventListener("click", sendEmail);
+                    if(email.length == 0) {
+                      alert("email is required");
+                      return;
+                    }
+                    if(project.length == 0) {
+                      alert("project is required");
+                      return;
+                    }
+                    if(description.length == 0) {
+                      alert("description is required");
+                      return;
+                    }
+                  
+                    const emails = ["etiennendemaze500@gmail.com"];
+                    let emailPromises = [];
+                  
+                    emails.forEach(receiver => {
+                      emailPromises.push(
+                        fetch('https://oppopti.mixmodashop.com/api/send-simple-email/', {
+                          method: 'POST',
+                          headers: {
+                            'Content-Type': 'application/json'
+                          },
+                          body: JSON.stringify({
+                            name: name, 
+                            email: email, 
+                            subject: (project), 
+                            message: (description + "\n\n" + name + "\n" + email), 
+                            receiver: receiver 
+                          })
+                        })
+                        .then(response => response.json())
+                      );
+                    });
+                  
+                    Promise.all(emailPromises)
+                      .then(results => {
+                        const allSuccessful = results.every(data => data.status === 'success');
+                        if (allSuccessful) {
+                          // Réinitialiser le formulaire après le succès de toutes les requêtes
+                          document.getElementById('contactForm').reset();
+                          alert('Envoyés avec succès!');
+                        } else {
+                          const failedEmails = results.filter(data => data.status !== 'success');
+                          alert('Erreur lors de l\'envoi.');
+                        }
+                      })
+                      .catch(error => {
+                        alert('Erreur: ' + error.message);
+                      });
+                  }
+                  
+                  document.getElementById("sendButton").addEventListener("click", sendEmail);
                   </script>
-
+                  
               </div>
             </section>
         </main>
@@ -821,7 +884,7 @@
         <footer class="footer">
           <div class="footer_bg">
             <div class="footer_container container grid">
-                <div>
+                <div id="scroll-down">
                     <h1 class="footer_title">Ndemaze Etienne Blériot</h1>
                     <span class="footer_subtitle">FullStack Web developer</span>
                     <p class="footer_subtitle">
@@ -853,7 +916,7 @@
                     </a> -->
                 </div>
             </div>
-            <p class="footer_copy">&#169;All right reserved</p>
+            <!-- <p class="footer_copy">&#169;All right reserved</p> -->
           </div>
         </footer>
         
